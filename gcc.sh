@@ -1,0 +1,2 @@
+sudo gcc -fPIC -I/usr/lib/jvm/java-8-openjdk-amd64/include -I/usr/lib/jvm/java-8-openjdk-amd64/include/linux -Wall -shared -o  half.so half.c -lpcap -lmysqlclient -lrt
+sudo gcc -fPIC -I/usr/lib/jvm/java-8-openjdk-amd64/include -I/usr/lib/jvm/java-8-openjdk-amd64/include/linux -Wall -shared -o  half_send.so half_send.c -lpcap -lmysqlclient -lrt

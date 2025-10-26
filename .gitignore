@@ -1,0 +1,51 @@
+# 编译生成的文件
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# Python相关
+__pycache__/
+*.pyc
+*.pyo
+
+# Java相关
+*.class
+*.jar
+*.war
+
+# 环境变量文件
+.env
+.env.local
+.env.production
+
+# 构建目录
+build/
+dist/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# 包管理器文件（如果有）
+node_modules/
+vendor/
