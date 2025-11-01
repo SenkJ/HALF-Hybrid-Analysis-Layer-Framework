@@ -69,7 +69,6 @@ public class half {             //类名
         GUI_SCROLLPANE_TABLE_MODEL_NETWORK_LAYER gui_scrollpane_table_model_network_layer = new GUI_SCROLLPANE_TABLE_MODEL_NETWORK_LAYER();
         GUI_SCROLLPANE_TABLE_NETWORK_LAYER gui_scrollpane_table_network_layer = new GUI_SCROLLPANE_TABLE_NETWORK_LAYER(gui_scrollpane_table_model_network_layer);
         GUI_JTABBEDPANE_SCROLLPANE_NETWORK_LAYER gui_jtabbedpane_scrollpane_network_layer = new GUI_JTABBEDPANE_SCROLLPANE_NETWORK_LAYER(gui_scrollpane_table_network_layer);
-        
         //对String类数组赋值
         String[] devname = half.DevN();
         String[] devdescription = half.DevD();
